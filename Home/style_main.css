@@ -1,0 +1,44 @@
+/* Yuki Matsubara_Morning Class Mid Term */
+/* Style for the entire website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abel', sans-serif;
+  font-size: 10pt;
+}
+/* font size */
+h2 {
+  font-size: 20pt;
+}
+/* link and hover */
+a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: darkviolet;
+}
+/* Move to Top button */
+.moveToTop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 18pt;
+  font-weight: bold;
+  color: black;
+  border: 2px solid lightcoral;
+  background-color:  rgb(235, 165, 165);
+  padding: 5px;
+  padding-right: 10px; 
+  margin: 0;
+  z-index: 5;
+  opacity: 0.7;
+}
+.moveToTop:hover {
+  border: 2px solid lightcoral;
+  background-color: #FFD898;
+  opacity: 1;
+}
+
+

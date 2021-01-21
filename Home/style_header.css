@@ -1,0 +1,67 @@
+/* Yuki Matsubara_Morning Class Mid Term */
+/* Header Style */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #fdf3f3;
+}
+.header_top {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.header_top .search {
+  border-bottom: 2px solid lightcoral;
+  padding-bottom: 4px; 
+}
+.header_top .search input {
+  background-color: rgb(227, 244,251);
+  cursor:pointer
+}
+.header_top h1 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.header_top h1 > a {
+ margin: 5px;
+ font-size: 28pt;
+ color: black;
+}
+.customerMenu {
+  padding-left: 110px;
+}
+.customerMenu img, .customerMenu img {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(227, 244,251);
+  cursor: pointer;
+}
+.header_top a, .header_top img {
+  padding: 5px;
+  vertical-align: middle;
+}
+.header_nav {
+  width: 100%;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.header_nav ul {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.header_nav ul li {
+  list-style: none;
+  padding:5px 20px;
+  font-size: 12pt;
+  color: lightcoral;
+}
+.header_nav ul li a {
+  text-decoration: none;
+}
+.header_nav ul li .sale {
+  color: red;
+  font-weight: bold;
+}

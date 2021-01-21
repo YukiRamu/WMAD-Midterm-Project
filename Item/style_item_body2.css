@@ -1,0 +1,109 @@
+/* Yuki Matsubara_Morning Class Mid Term */
+/* Item Body 2 Style */
+/* =======Review ======= */
+.review {
+  margin: 0;
+  padding: 10px 50px;  
+}
+.review h2 {
+  margin: 0;
+  padding: 5px;
+  border: 1px solid lightgray;
+  width:fit-content;
+  background-color: #F9EAC2;
+  border-radius: 10% 10% 0 0;
+  font-size: 20px;
+}
+.review .rating {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items:baseline;
+  border: 1px solid lightgray;
+}
+.review .rating h3 {
+  margin-bottom: 16px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+/* === Rating Table === */
+.review .rating table {
+  margin: auto;
+  margin-bottom: 20px;
+}
+.review .rating table td {
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.review .rating .snapshots {
+  margin-right: 30px;
+}
+.review .rating table .rate5 {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 80%,white 80%,white 100%);
+  color: transparent;
+}
+.review .rating table .rate4 {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 40%,white 40%,white 100%);
+  color: transparent;
+}
+.review .rating table .rate3 {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 20%,white 20%,white 100%);
+  color: transparent;
+}
+.review .rating table .rate2 {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 5%,white 5%,white 100%);
+  color: transparent;
+}
+.review .rating table .rate1 {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 1%,white 1%,white 100%);
+  color: transparent;
+}
+.review .rating table .overall {
+  color: lightcoral;
+}
+.review .rating table .quality {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 85%,white 85%,white 100%);
+  color: transparent;
+}
+.review .rating table .value {
+  border: 1px solid lightgray;
+  background:linear-gradient(to right,lightcoral 0%,lightcoral 95%,white 95%,white 100%);
+  color: transparent;
+}
+/* ======= Recommend ======= */
+.recommend {
+  width: 100%;
+}
+.recommend h2 {
+  text-align: left;
+  margin: 0;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.recommend .recommendPhoto {
+  display: flex;
+  justify-content: space-around;
+}
+.recommend .recommendPhoto .slide {
+  text-align: center;
+}
+.recommend .recommendPhoto img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.recommend .recommendPhoto img:hover {
+  transform: scale(1.5,1.5);
+}
+.recommend .recommendPhoto p {
+  text-align: center;
+}
+

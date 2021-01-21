@@ -1,0 +1,93 @@
+/* Yuki Matsubara_Morning Class Mid Term */
+/* Category Body 3 Style*/
+/* ===== Subscribe =====  */
+.subscribe_section {
+  background-color: #f7eac9;
+}
+.subscribe_section h2 {   
+  margin: 0;
+  margin-left: 30px;
+  padding-top: 10px ;
+}
+.subscribe_section .subscribeForm {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.subscribe_section .email {
+  width: 300px;
+  height: 20px;
+  padding: 3px;
+  border: 2px solid lightcoral;
+}
+.subscribe_section .subbutton {
+  padding: 5px;
+  border: 2px solid lightcoral;
+  background-color: rgb(235, 165, 165);
+}
+.subscribe_section .subbutton:hover {
+  padding: 5px;
+  border: 2px solid lightcoral;
+  background-color: #FFD898;
+  color: darkviolet;
+}
+/* ===== Explorer Style =====  */
+.exploreStyle_section {
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  background-color: #fff2f2d3;
+}
+.exploreStyle_section .explore {
+  margin: 0;
+}
+.exploreStyle_section .explore h2 {
+  padding-top: 70px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 28pt;
+}
+.exploreStyle_section .carousel {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+}
+.exploreStyle_section .carousel .slide { 
+  display: flex;
+  overflow:hidden; 
+}
+.exploreStyle_section .carousel .slide img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  padding-bottom: 45px;
+}
+.exploreStyle_section .carousel .slideNumber a {
+  position: absolute;
+  background-color: white ;
+  padding: 5px 10px;
+  border: 1px solid lightcoral;
+  border-radius: 50%;
+}
+.exploreStyle_section .carousel .slideNumber a:hover {
+  background-color: #FFD898;
+}
+.exploreStyle_section .carousel .slideNumber .one {
+  bottom: 10px;
+  left: 120px;
+}
+.exploreStyle_section .carousel .slideNumber .two {
+  bottom: 10px;
+  left: 160px;
+}
+.exploreStyle_section .carousel .slideNumber .three {
+  bottom: 10px;
+  left: 200px;
+}
+.exploreStyle_section .carousel .slideNumber .four {
+  bottom: 10px;
+  left: 240px;
+}
+.exploreStyle_section .carousel .slideNumber .five {
+  bottom: 10px;
+  left: 280px;
+}

@@ -1,0 +1,144 @@
+/* Yuki Matsubara_Morning Class Mid Term */
+/* Item Body 1 Style */
+/* ===Item Title and summary === */
+.itemTitle {
+  margin: 0;
+  padding-top: 89px;
+}
+.itemTitle h1 {
+  margin: 0%;
+  padding: 20px 0 0 20px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20pt;
+}
+.itemTitle p {
+  width: 50%;
+  margin: 0;
+  padding: 10px 0 0 50px;
+  text-align: justify;
+}
+/* === Item photo and description ===*/
+.itemDescription {
+  margin: 0;
+  padding: 20px 50px 50px 50px;
+  height: 250px;
+  display: flex;
+  justify-content:center;
+}
+.itemDescription .itemPhoto {
+  position: relative;
+  width: 50%; 
+  background-image: url(../img/eye1.JPG);
+  background-position: left 30% top 0%;
+  background-repeat: no-repeat;
+  background-size: 200px 200px; 
+}
+.itemDescription .itemPhoto .photo1 { 
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+}
+.itemDescription .itemPhoto .photo2 {
+  position: absolute;
+  bottom: 0px;
+  left: 180px;
+  width: 50px;
+  height: 50px;
+}
+.itemDescription .itemPhoto .photo3 {
+  position: absolute;
+  bottom: 0px;
+  left: 290px;
+  width: 50px;
+  height: 50px;
+}
+/* === Item purchase ===*/
+.itemDescription .itemSelect {
+  width: 50%;
+}
+.itemDescription .itemSelect .addBag {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;  
+  padding: 0;
+}
+.itemDescription .itemSelect .addBag select{
+  width: 80px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.itemDescription .itemSelect .addBag button{
+  height: 30px;
+  border: 2px solid lightcoral;
+  background-color: rgb(235, 165, 165);
+  margin-right: 20px;
+}
+.itemDescription .itemSelect .addBag button:hover{
+  border: 2px solid lightcoral;
+  background-color: #FFD898;
+  color: darkviolet;
+  cursor: pointer;
+}
+.itemDescription .itemSelect .addBag img {
+  background-color: rgb(227, 244,251);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/* === Item description ===*/
+.itemDescription .itemSelect .description  {
+  position: relative;
+  margin-bottom: 150px;
+}
+.itemDescription .itemSelect .description label {
+  margin: 0;
+  padding: 5px;
+  border-top-left-radius:10% ;
+  border-top-right-radius:10% ;
+  border: 1px solid lightgray;
+  width: fit-content;
+  font-size: 14pt;
+  cursor: pointer;
+  border-bottom: none;
+  background: white;
+  position: relative;
+  top: -5px; 
+  z-index: 2;
+}
+.itemDescription .itemSelect .description label:hover {
+  font-weight: bold;
+  width:fit-content;
+  background-color: #F9EAC2;
+  color: darkviolet;
+  cursor: pointer;
+}
+.itemDescription .itemSelect .description input[type="radio"] {
+  display: none;
+}
+.itemDescription .itemSelect .description .feature, .ingredients {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.itemDescription .itemSelect .description p {
+  text-align: justify;
+  margin: 0;
+  padding: 10px;
+  height: 150px;
+}
+.itemDescription .itemSelect .description .radio1:checked+ .feature  {
+  opacity: 1;
+}
+.itemDescription .itemSelect .description .radio2:checked+.ingredients  {
+  opacity: 1;
+}

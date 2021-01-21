@@ -1,0 +1,39 @@
+/* Yuki Matsubara_Morning Class Mid Term */
+/* Body 2 Style */
+.newItem {
+  display: flex;
+  justify-content: center;
+}
+.newItem_section h2 {
+  text-align: center;
+  font-size: 20pt;
+}
+.newItem_section .newItemPhoto {
+  margin: 10px;
+  position: relative;
+}
+.newItem_section .newItemPhoto img {  
+  width: 300px;
+  height: 200px;
+}
+.newItem_section .newItemPhoto p {
+  text-align:center;
+}
+/* Hover Control */
+.newItem_section .newItemPhoto a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align:center;
+  background-color: rgba(231, 226, 226, 0.637);
+  font-size: 18pt;
+  opacity: 0;
+}
+.newItem_section .newItemPhoto a:hover {
+  opacity: 1; 
+}
