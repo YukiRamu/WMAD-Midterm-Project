@@ -1,4 +1,4 @@
-# WMAD-Midterm-Project
+# WMAD1-Midterm-Project
 CICCC Web and Mobile App Development
 
 WADP 410 – Midterm Project			                   
